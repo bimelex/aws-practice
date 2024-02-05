@@ -1,6 +1,6 @@
-package com.jojoldu.book.springboot.web.domain.posts;
+package com.jojoldu.book.springboot.domain.posts;
 
-import com.jojoldu.book.springboot.web.domain.BaseTimeEntity;
+import com.jojoldu.book.springboot.domain.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

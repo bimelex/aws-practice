@@ -1,11 +1,11 @@
-package com.jojoldu.book.springboot.web.service.posts;
+package com.jojoldu.book.springboot.service.posts;
 
-import com.jojoldu.book.springboot.web.domain.posts.Posts;
-import com.jojoldu.book.springboot.web.domain.posts.PostsRepository;
-import com.jojoldu.book.springboot.web.dto.PostsListResponseDto;
-import com.jojoldu.book.springboot.web.dto.PostsResponseDto;
-import com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto;
-import com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto;
+import com.jojoldu.book.springboot.domain.posts.Posts;
+import com.jojoldu.book.springboot.domain.posts.PostsRepository;
+import com.jojoldu.book.springboot.dto.PostsListResponseDto;
+import com.jojoldu.book.springboot.dto.PostsResponseDto;
+import com.jojoldu.book.springboot.dto.PostsSaveRequestDto;
+import com.jojoldu.book.springboot.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
